@@ -6,7 +6,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Lokesh Sharma</h1>
+        <h1 style={{
+          textDecoration: "underline",
+          color: "yellow",
+          boxShadow: "0px 0px 10px lavender",
+          padding: "10px",
+          borderRadius: "5px"
+        }}>Lokesh Sharma</h1>
       </header>
     </div>
   );
